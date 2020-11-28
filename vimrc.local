@@ -37,3 +37,10 @@ nnoremap <F5> :buffers<CR>:buffer<Space>
 
 
 "ActivateAddons vim-snippets snipmate
+"
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
+set guifont=Menlo-Regular:h14 
+
+set directory^=$HOME/.vimswap//
+
